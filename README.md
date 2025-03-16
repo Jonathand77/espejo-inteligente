@@ -1,78 +1,78 @@
-# MagicMirror² - Espejo Inteligente
+# MagicMirror² - Smart Mirror
 
-**Descripción del Proyecto:**
-Este proyecto consiste en el desarrollo de un **Espejo Inteligente** basado en la plataforma MagicMirror², el cual permite visualizar información personalizada en un espejo mediante módulos configurables. Se pueden mostrar datos como el clima, calendario, noticias, recordatorios y muchas otras funcionalidades gracias a su sistema modular.
+**Project Description:**
+This project involves the development of a **Smart Mirror** based on the MagicMirror² platform, which allows users to display personalized information on a mirror using configurable modules. Data such as weather, calendar, news, reminders, and many other features can be displayed thanks to its modular system.
 
-El objetivo de este proyecto es transformar un espejo convencional en un asistente interactivo mediante la integración de hardware y software, utilizando MagicMirror² con Node.js y Electron.
+The goal of this project is to transform a conventional mirror into an interactive assistant by integrating hardware and software, using MagicMirror² with Node.js and Electron.
 
 ---
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Lenguajes de Programación:** JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-- **Frameworks y Herramientas:**
+- **Programming Languages:** JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+- **Frameworks and Tools:**
   - Node.js <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
   - Electron <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/>
   - MagicMirror²
 
 ---
 
-## Comenzando 🚀
-_Estas instrucciones te permitirán obtener una copia del proyecto en tu máquina local para desarrollo y pruebas._
+## Getting Started 🚀
+_These instructions will allow you to get a copy of the project on your local machine for development and testing._
 
-### Requisitos 📋
-_Para instalar y ejecutar el Smart Mirror necesitas:_
+### Requirements 📋
+_To install and run Smart Mirror, you need:_
 
 ```
-- Un Raspberry Pi o una computadora con Linux, Windows o macOS.
-- Node.js instalado (Consulta la documentación oficial para instalarlo según tu sistema operativo).
-- Git instalado para clonar el repositorio.
-- Un monitor o pantalla compatible para visualizar el espejo inteligente.
+- A Raspberry Pi or a computer running Linux, Windows, or macOS.
+- Node.js installed (See the official documentation for installation depending on your operating system).
+- Git installed to clone the repository.
+- A compatible monitor or screen to display the Smart Mirror.
 ```
 
-### Instalación 🔧
+### Installation 🔧
 
-#### Instalación Manual
+#### Manual Installation
 
-1. **Clonar el repositorio de MagicMirror²:**
+1. **Clone the MagicMirror² repository:**
    ```
    git clone https://github.com/MagicMirrorOrg/MagicMirror.git
    ```
 
-2. **Ingresar al directorio del proyecto:**
+2. **Enter the project directory:**
    ```
    cd MagicMirror
    ```
 
-3. **Instalar dependencias:**
+3. **Install dependencies:**
    ```
    npm run install-mm
    ```
 
-4. **Copiar el archivo de configuración base:**
+4. **Copy the base configuration file:**
    ```
    cp config/config.js.sample config/config.js
    ```
 
-5. **Ejecutar la aplicación:**
+5. **Run the application:**
    ```
    npm run start
    ```
    
-6. **Ejecutar en modo servidor (opcional):**
+6. **Run in server mode (optional):**
    ```
    npm run server
    ```
 
-#### Instalación Automática (Opcional)
-Puedes usar el script de instalación automática mantenido por la comunidad:
+#### Automatic Installation (Optional)
+You can use the community-maintained auto-install script:
 
 ```
 https://github.com/sdetweil/MagicMirror_scripts
 ```
 
-#### Opciones Avanzadas
-El proyecto también permite ejecutarse en entornos como Docker, Kubernetes y MagicMirrorOS. Consulta la documentación oficial para más detalles.
+#### Advanced Options
+The project also supports running in environments such as Docker, Kubernetes, and MagicMirrorOS. See the official documentation for more details.
 
 ---
 
@@ -82,10 +82,10 @@ El proyecto también permite ejecutarse en entornos como Docker, Kubernetes y Ma
 
 ---
 
-## Expresiones de Gratitud 🎁
+## Thanks 🎁
 
-* Comparte este proyecto con otros interesados en tecnología 📢
-* Aporta mejoras y nuevos módulos 🤓
+* Share this project with other tech-savvy people 📢
+* Contribute improvements and new modules 🤓
 
 ---
 
